@@ -17,7 +17,6 @@ var rowLength{Rows} >= 0;
 var longestRow >= 0;
 
 
-
 s.t. AllCashiersOnce{c in Cashiers}:
 	sum{r in Rows} putCashier[c, r] = 1;
 
